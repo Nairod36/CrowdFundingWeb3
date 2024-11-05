@@ -64,3 +64,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+Explication
+- MainCrowdfundingContract : Ce contrat crée et gère les campagnes en créant des instances dans Campaign.
+- Campaign : Ce contrat gère les contributions, vérifie les objectifs et gère les réclamations de fonds et les remboursements.
+- TokenExchange : Simplifie les échanges de tokens pour les contributeurs, offrant une modularité pour les échanges entre différents ERC-20.
+- FundsManagement : Offre des fonctions utilitaires pour les transferts et remboursements, garantissant une séparation claire des responsabilités.
